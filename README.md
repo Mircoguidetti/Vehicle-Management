@@ -359,20 +359,3 @@ steer-ai/
 ├── tsconfig.json
 └── README.md
 ```
-
-## 🔧 Configuration
-
-### Environment Variables
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `PORT` | Application port | `3000` |
-| `DB_HOST` | PostgreSQL host | `localhost` |
-| `DB_PORT` | PostgreSQL port | `5432` |
-| `DB_DATABASE` | PostgreSQL database | `vehicle_management` |
-| `TIMESCALE_HOST` | TimescaleDB host | `localhost` |
-| `TIMESCALE_PORT` | TimescaleDB port | `5433` |
-| `TIMESCALE_DATABASE` | TimescaleDB database | `vehicle_telemetry` |
-| `MQTT_BROKER_URL` | MQTT broker URL | `mqtt://localhost:1883` |
-| `VEHICLE_JWT_SECRET` | JWT secret for vehicles | (required) |
-| `VEHICLE_JWT_EXPIRATION` | Token expiration | `30d` |
